@@ -1,0 +1,12 @@
+<div class="read-more">
+  <div class="read-more-list">
+      <div class="list-item">
+        <h4><a href="{{ site.url }}{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a></h4>
+        <span>发表于 {{ page.previous.date | date: "%B %d, %Y" }}</span>
+      </div><!-- /.list-item -->
+      <div class="list-item">
+        <h4><a href="{{ site.url }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a></h4>
+        <span>发表于 {{ page.next.date | date: "%B %d, %Y" }}</span>
+      </div><!-- /.list-item -->
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->

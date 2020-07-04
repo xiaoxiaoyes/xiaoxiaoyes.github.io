@@ -1,0 +1,319 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>UNIX为软件设计带来的启发 &#8211; iFun Tech</title>
+<meta name="description" content="《Unix 编程艺术》 读书心得 (二)">
+<meta name="keywords" content="Unix Linux Design 读书笔记">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="UNIX为软件设计带来的启发">
+<meta property="og:description" content="《Unix 编程艺术》 读书心得 (二)">
+<meta property="og:url" content="http://localhost:4000/taoup_note1/">
+<meta property="og:site_name" content="iFun Tech">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/taoup_note1/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="iFun Tech Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.jpeg">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.jpeg">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/">主页</a></li>
+		<li>
+			<a href="#">关于</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="http://localhost:4000/images/avatar.jpeg" alt="Curno photo" class="author-photo">
+					<h4>Curno</h4>
+					<p>记录技术的所思所想，当然，我指的是有时间的时候：）</p>
+				</li>
+				<li><a href="http://localhost:4000/about/"><span class="btn btn-inverse">更多</span></a></li>
+				<li>
+					<a href="mailto:liangyunfeng2014@163.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				
+				<li>
+					<a href="https://github.com/curno"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">博文</a>
+			<ul class="dl-submenu">
+				<li><a href="http://localhost:4000/posts/">全部博文</a></li>
+				<li><a href="http://localhost:4000/tags/">全部 Tags</a></li>
+			</ul>
+		</li>
+		
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  
+  <div class="entry-image">
+    <img src="http://localhost:4000/images/taoup.png" alt="UNIX为软件设计带来的启发">
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/taoup_note1/" rel="bookmark" title="UNIX为软件设计带来的启发">UNIX为软件设计带来的启发</a></h1>
+        
+        <h2><span class="entry-date date published"><time datetime="2016-04-11T00:00:00+00:00">April 11, 2016</time></span></h2>
+        
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+Reading time ~1 minute
+        </p><!-- /.entry-reading-time -->
+        
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p><code class="highlighter-rouge">UNIX</code>是设计良好的软件，本书讲述了关于<code class="highlighter-rouge">UNIX</code>设计很重要、很精髓的一些观点。这些观点不仅仅局限于<code class="highlighter-rouge">UNIX</code>开发，而且可以作为通用设计原则，也是通用软件设计非常珍贵的方法论。这些观点散落在不同的章节中，这里进行一些引文整理和评价。</p>
+
+<h3 id="紧凑性和正交性">紧凑性和正交性</h3>
+
+<blockquote>
+  <p>紧凑性就是一个设计能否装进人脑中的特性。紧凑不等于“薄弱”，如果一个设计构建在易于理解且利于组合的抽象概念上，这个系统能在具有非常强大、灵活的功能的同时保持紧凑。合理对待紧凑性，设计中尽量考虑，绝不随意抛弃。</p>
+</blockquote>
+
+<blockquote>
+  <p>正交设计中，任何操作无副作用；每一个动作只改变一件事，不会影响其他。</p>
+</blockquote>
+
+<p>紧凑性是对一个软件模块大小的很好的评判标准。一个良好软件模块应该是紧凑的，这样人们便易于理解。一旦一个软件模块所做的事情并不是<em>一件事</em>，而是多个事的不同方面，并且这些方面还交杂在一起，那么就是设计不良的。达到紧凑性的一个方法是<em>拆分</em>，将模块划分为独立的子块；但是更重要的是，达到紧凑性需要对这个模块面向的场景、要解决的问题抽取出良好的抽象和问题定义，这个抽象概念越明确，问题定义越精准，越有可能导致紧凑的设计。</p>
+
+<!-- brief-remark -->
+
+<p>正交性是评价模块和模块关系方面设计质量的标准之一。模块关系正交，意味着模块之间不互相影响，可以分别独立使用，并方便组合起来；这样的设计提高了模块复用；反之则是设计不良的。达到正交设计，同样需要明确场景，对模块进行精准的定义和划分，保证每个模块<strong>做且只做好一件事情</strong>，设计就趋向正交。</p>
+
+<h3 id="spot原则">SPOT原则</h3>
+
+<blockquote>
+  <p><strong>SPOT</strong>即<strong>S</strong>ingle <strong>P</strong>oint <strong>O</strong>f <strong>T</strong>ruth、真理的单点性。</p>
+</blockquote>
+
+<p>这可能是设计中最常应用，同时也是最容易见到违反场景的设计原则了。也有人称之为<strong>DRY</strong>（<strong>D</strong>ont <strong>R</strong>epeat <strong>Y</strong>ourself）原则。要对设计中的<strong>重复</strong>异常敏感，发现重复的代码、数据、资源等都考虑重构，方能趋于SPOT。</p>
+
+<h3 id="胶合层">胶合层</h3>
+
+<blockquote>
+  <p>实际代码往往是自顶向下和自底向上的综合产物。同一个项目中经常同时具有两者的代码，导致了“胶合层”的出现</p>
+</blockquote>
+
+<blockquote>
+  <p>胶合层是个挺讨厌的东西，必须尽可能薄。</p>
+</blockquote>
+
+<blockquote>
+  <p>如果设计者意识到胶合层的存在，并试图围绕自身的一套数据结构或者对象把胶合层组织成一个中间层，结果却导致两个胶合层。</p>
+</blockquote>
+
+<p>设计中，胶合层是必要的，胶合层将不同的模块结合到一起，过厚的胶合层属于过度设计。良好的设计应该是<strong>良好的模块+薄胶合层</strong>。</p>
+
+<blockquote>
+  <p>所有的OO语言都显示出某种使程序员陷入过度分层陷阱的倾向。</p>
+</blockquote>
+
+<blockquote>
+  <p>如果程序员到来用复杂的办法来做简单的事情————仅仅是因为他们能够这样做，结果便适得其反。</p>
+</blockquote>
+
+<p>这为OO程序员（包括我）提了个醒。由于客户端工作性质，OO是必不可少的。GUI也是少数几个OO取得巨大成功的领域。但是设计中要谨防OO带来的过度设计，特别是胶合层方面。</p>
+
+<h3 id="微型语言">微型语言</h3>
+
+<blockquote>
+  <p>微型语言的设计不仅强大而且回报丰厚…微型语言的优势之一是可以把一些自顶向下的决策放到微型语言的程序控制流中，从而帮助我们从自底向上的编程中得到一个良好的设计。</p>
+</blockquote>
+
+<p>在以往的编程开发中，我还没有创建微型语言的经历，这可能跟我面向的任务规模和领域有关。尽管如此，我感到微型语言非常有趣，而且很强大。<code class="highlighter-rouge">UNIX</code>给我的启发之一是，<strong>自底向上建立起机制，自顶向下确定策略，而微型语言，则是薄薄的胶合层</strong>。</p>
+
+<p>这样的软件设计模式可能非常强大。简单说，通过将问题领域的操作、行为等作为动作原语，为这些原语建立基础模块（机制）；其次，在这些原语的基础上，设计一个灵活的微型语言及其解释器，该解释器分析微型语言，并调用基础模块完成功能；最后，根据面向的问题，通过执行相应的微型语言，给出实际的解决方案，例如搭建GUI并调用微型语言。</p>
+
+<p>这样的设计模式的好处是显然的：</p>
+
+<ul>
+  <li>策略和机制进行了分离，开发基础模块不需要关注上层GUI，反之亦然。有助于基础模块的设计良好。</li>
+  <li>微型语言的参与使得对基础模块的使用模式有可能变得十分灵活，更易于运行时改变。</li>
+  <li>基础模块易于复用</li>
+</ul>
+
+<p>在iOS客户端开发中，<code class="highlighter-rouge">NSLayoutConstraint</code>的创建就是一个微型语言的<a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/ProgrammaticallyCreatingConstraints.html#//apple_ref/doc/uid/TP40010853-CH16-SW1">例子</a>，通过声明一个表明各个<code class="highlighter-rouge">UIView</code>之间布局约束关系的字符串，解析器创建一组期望的<code class="highlighter-rouge">NSLayoutConstraint</code>对象。</p>
+
+<p>微型语言的设计是一项有趣且富有挑战的任务，需要语法设计、调用<code class="highlighter-rouge">yacc</code>和<code class="highlighter-rouge">lex</code>完成词法和语法分析、集成等工作。希望以后有机会能够实践下。</p>
+
+<h3 id="数据-vs-逻辑">数据 vs 逻辑</h3>
+
+<blockquote>
+  <p>数据比程序逻辑更易驾驭。尽可能把设计的复杂度从程序代码转移到数据中是个好实践。</p>
+</blockquote>
+
+<blockquote>
+  <p>进行任何类型的代码生成或者数据驱动编程的重要原则是：始终把问题层次往上推，不要手工修改生成的代码或者中间形式</p>
+</blockquote>
+
+<blockquote>
+  <p>尽可能少干活；让数据塑造代码；依靠工具，把机制从策略中分离。</p>
+</blockquote>
+
+<p>数据比程序逻辑更易驾驭，在于人脑分析数据更加容易，复杂度更低，同时数据更易在运行时改变，更加灵活。
+在设计中，对于复杂的逻辑，要通过把问题层次往上推，从中抽取有用的抽象概念，从而找到用数据建模逻辑的可能。</p>
+
+<p>在<code class="highlighter-rouge">UNIX</code>之外，在很多GUI开发领域，这样的场景很常见，通过可视化的UI搭建界面，创建表达界面数据的<code class="highlighter-rouge">XML</code>(Qt)、<code class="highlighter-rouge">XAML</code>(Windows Phone)、<code class="highlighter-rouge">Storyboard</code>(iOS)等数据表示，再通过专有程序使用这些数据文件。这些专有程序或者直接运行时解析，或者编译器生成代码。</p>
+
+<h3 id="透明性和可显性">透明性和可显性</h3>
+
+<blockquote>
+  <p>如果没有阴暗的角落和隐藏的深度，软件系统就是透明的。透明性是一种被动品质。如果实际上能预测到程序行为的全部或者大部分情况，并能建立简单的心理模型，这个程序就是透明的。</p>
+</blockquote>
+
+<blockquote>
+  <p>如果软件系统所包含的功能是为了帮助人们对软件建立正确“做什么，怎样做”的心理模型而设计，这个软件系统就是可显的。</p>
+</blockquote>
+
+<p>这两个概念比较生疏，我在读此书之前基本没有在别的设计书籍中看到这两个概念。书中对这两个概念的描述也比较晦涩难懂。特意去查了英文原版中这两个词，分别是<code class="highlighter-rouge">Transparent</code>和<code class="highlighter-rouge">Discoverable</code>。在我的理解中，透明性表达了理解软件整体的难易程度，软件的结构、功能符合预期，软件对自身的运行过程有明确的反馈；可显性表达了当软件某一个功能不那么清晰明显时，使用者通过学习、查看资料了解的难易程度，良好的文档有助于提高可显性。</p>
+
+<p>从另一个角度，我认为软件这两个性质其实说的是软件是否是“优雅”的软件，即更符合人们预期、更易学习的软件。</p>
+
+<p>目前对于这两个性质我只能做出这种程度的解释，之后只能慢慢体会。</p>
+
+<h3 id="结束">结束</h3>
+
+<p>以上就是书中的一些观点概念及对我的启发，有一些是比较显见易于理解和实施的，比如<strong>SPOT</strong>；有些则有些深奥，比如<strong>透明性，可显性</strong>，需要以后加深理解。不论怎样，在以后开发过程中，意识到这些良好设计准则并有意应用，能促成更好的设计。</p>
+
+<p>最后，用书中的一句俏皮点的话结束总结吧，当作者讨论让使用数据来生成代码这一良好实践时，他说：</p>
+
+<blockquote>
+  <p>专家级<code class="highlighter-rouge">UNIX</code>程序员要学会迅速自动地看出这些可能性。建设性的懒惰是大师程序员的基本美德之一。</p>
+</blockquote>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#Unix Linux Design 读书笔记" title="Pages tagged Unix Linux Design 读书笔记" class="tag"><span class="term">Unix Linux Design 读书笔记</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/taoup_note1/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/taoup_note1/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/taoup_note1/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    <!--<section id="disqus_thread"></section>--><!-- /#disqus_thread -->
+    <div class="read-more">
+  <div class="read-more-list">
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/taoup_note0/" title="偏爱命令行的世界">偏爱命令行的世界</a></h4>
+        <span>发表于 April 08, 2016</span>
+      </div><!-- /.list-item -->
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/taoup_note2/" title="软件的复杂度">软件的复杂度</a></h4>
+        <span>发表于 April 13, 2016</span>
+      </div><!-- /.list-item -->
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2020 Curno. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'curno'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+</body>
+</html>

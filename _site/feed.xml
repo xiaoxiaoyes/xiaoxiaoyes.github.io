@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-26T08:28:47+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">iFun Tech</title><subtitle>记录技术的所思所想，当然，我指的是有时间的时候：）</subtitle><entry><title type="html">重启</title><link href="http://localhost:4000/restart/" rel="alternate" type="text/html" title="重启" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-26T00:00:00+00:00</updated><id>http://localhost:4000/restart</id><content type="html" xml:base="http://localhost:4000/restart/">&lt;p&gt;看了下上次发表博文，已经是几年前了。时间飞逝，也感慨自己缺少坚持。&lt;/p&gt;
+
+&lt;p&gt;回顾一下这几年，我在技术上也有了一定的进步，不管是从深度和广度上。但是一直没有养成记录和整理的习惯。究其原因，主要是以下几点：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;较忙，特别是工作方面最近一年的琐事比较多。工作上主要是由于长期的快速“敏捷型”的开发导致了软件设计问题，后期维护的工作比例变得越来越高。同时需求不断跟进导致抽不出时间进行重构；同时还有KPI的压力。其实这方面我个人还是有些不满意的，但也无能为力，不想多说。生活上也发生了很大的变化。&lt;/li&gt;
+  &lt;li&gt;写博客博文我还没有找到成就感和乐趣。主要是写给自己看。但是写都没有时间，更别提回顾了。&lt;/li&gt;
+  &lt;li&gt;懒惰。这个感觉是根本原因，有时间还想玩两局游戏放松一下，哈哈哈。。。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;话虽如此，但毕竟常常进行技术总结是一件有意义的事情。这里再给自己立一个flag吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2020重启博客计划&lt;/strong&gt;，👀这次是什么结果吧~&lt;/p&gt;</content><author><name></name></author><summary type="html">看了下上次发表博文，已经是几年前了。时间飞逝，也感慨自己缺少坚持。</summary></entry><entry><title type="html">理财入门思维</title><link href="http://localhost:4000/RDPD-note/" rel="alternate" type="text/html" title="理财入门思维" /><published>2017-08-20T00:00:00+00:00</published><updated>2017-08-20T00:00:00+00:00</updated><id>http://localhost:4000/RDPD-note</id><content type="html" xml:base="http://localhost:4000/RDPD-note/">&lt;p&gt;最近看了一本讲财富观的书，《富爸爸穷爸爸》。这是一本理财入门书，主要面向的是理财小白，就像我这样的。作者是一个以理财为职业的人，白手起家，通过搞房地产和股票赚得了几千万的资产，并在47岁达到财务自由，选择了退休。&lt;/p&gt;
+
+&lt;p&gt;对于像我这样的上班族，工薪阶层，财务自由是一个遥远但是有很有吸引力的愿景。作者在这本书里特别提到了作为中产阶级和工薪阶层，如何看待金钱、如何积累财富，以及达到财务自由的关键。&lt;/p&gt;
+
+&lt;!-- brief-remark --&gt;
+
+&lt;p&gt;其实全书洋洋洒洒几十万字，它的精髓思想却非常精炼。作者不惜笔墨的从多个角度反复重复了相同几个要点，可见在他心中的重要程度。值得反复学习。&lt;/p&gt;
+
+&lt;h4 id=&quot;认识金钱&quot;&gt;认识金钱&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;穷人为钱工作，富人让钱为自己工作&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;虽然知道通过一些理财手段可以使用本金赚取利息，但是之前基本上认为金钱是用来消费的；而赚取金钱则通过需要通过劳动创造价值，社会或者公司自然而然给与的报酬。作者“让钱为自己工作”的观点实际上明确的表明了对待钱的另外一个视角：以钱生钱是金钱的另一项方面；钱不光用于消费，还是产生钱的工具。在充分发挥此项工具作用的情况下，财富增长的速度甚至会超过劳动创收。这里面一个重要的原因在于，劳动创收时的收益很大一部分会进入政府和雇主的口袋，工薪阶层往往需要”付出最大的努力，获得最少可接受的报酬”。这就是资本的力量。&lt;/p&gt;
+
+&lt;h4 id=&quot;财商&quot;&gt;财商&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;财商需要学习，却脱离现有的教育体系&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;除了建立以钱生钱的观念，还需要行之有效的行动。作者指出任何希望财富增长乃至财务自由的人，都需要对自己进行“财商”训练，也就是理财知识和直觉、经验的增长。现在的高等教育中，关于财商的教育基本为零。传统教育要求人们爱岗敬业，努力学习，提高专业技能，才可以找到一个好工作铁饭碗，这些也本没有错。但是如果没有理财知识，那很多时候都只能陷入”老鼠赛跑”的陷阱，面临巨大的经济压力，无法获得自己赢得的财富。在这样的大环境下，“财商”自己主动地学习。&lt;/p&gt;
+
+&lt;h4 id=&quot;财商第一课&quot;&gt;财商第一课&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;富人增加资产，穷人和中产增加负债&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;关于”财商”的具体内容，本书中没有讲很多具体的东西，但是这一点作者却进行了反复强调。&lt;/p&gt;
+
+&lt;p&gt;对于认识财富，关键的一点是要认识&lt;strong&gt;资产&lt;/strong&gt;和&lt;strong&gt;负债&lt;/strong&gt;的区别。资产为你产生财产，而负债则为你减少财产。这是正负反馈的区别，经年累月之后会产生巨大的差异。为了有效理财，我们需要时刻注意资产和负债的变化。所有财富决策，最终目的都必须是达到资产的增加和负债的减少。&lt;/p&gt;
+
+&lt;p&gt;如何准确区分资产还是负债，例如一处房地产，则是一个很大的课题。需要对经济运行规律、政治、市场、法律等有全面的了解，还需要有敏锐的直觉和丰富的经验。作者指出，现有的教育教会人们某一方面的专精的知识技能，成为某一方面的专家就会找到更好的工作和更好的报酬。但是对于理财而言，更需要“通才”，需要方方面面的知识都懂一些，然后可以把它们糅合起来的智慧。&lt;/p&gt;
+
+&lt;h4 id=&quot;精神&quot;&gt;精神&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;不要惧怕失败，只是个游戏&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;除了完善的知识体系和经验外，作者书中还提到了理财者应有的心态。投资是有风险的，而人规避风险的天性导致很多时候畏首畏尾措施良机。很多时候，投资理财需要魄力。这就需要我们能够调整心态，用游戏的观点去看待这个事情，并从失败中学习到宝贵经验。这是一个勇敢者的游戏，我们要做的就是用扎实的理财知识作为后盾，然后，拼搏一把。&lt;/p&gt;</content><author><name></name></author><category term="读书笔记" /><summary type="html">最近看了一本讲财富观的书，《富爸爸穷爸爸》。这是一本理财入门书，主要面向的是理财小白，就像我这样的。作者是一个以理财为职业的人，白手起家，通过搞房地产和股票赚得了几千万的资产，并在47岁达到财务自由，选择了退休。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22RDPD_cover.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22feature%22=%3E%22RDPD_cover.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">碌碌匆匆又一年</title><link href="http://localhost:4000/2017-new-beginning/" rel="alternate" type="text/html" title="碌碌匆匆又一年" /><published>2017-01-27T00:00:00+00:00</published><updated>2017-01-27T00:00:00+00:00</updated><id>http://localhost:4000/2017-new-beginning</id><content type="html" xml:base="http://localhost:4000/2017-new-beginning/">&lt;p&gt;今天是大年三十，外面鞭炮齐鸣，热热闹闹。在帮助妈妈剁完四斤羊肉、六根萝卜和超级辣眼睛的一根大葱后，累的双手抬不起来了，手无缚鸡之力的表现真愧对我黑大汉的形象。（问为啥是双手？因为本人耍的双刀哇咔咔。）&lt;/p&gt;
+
+&lt;p&gt;切完无事，来这搁置了很久的博客看看。看着上一篇博客已经是五月份了，心中升起一股悔意。这一年来的发生了大大小小事弄得身心疲劳，竟半年没有写点什么。今天还是来总结总结吧，也算给自己的2016一个交代。&lt;/p&gt;
+
+&lt;!-- brief-remark --&gt;
+
+&lt;h2 id=&quot;技术路线的大转弯&quot;&gt;技术路线的大转弯&lt;/h2&gt;
+
+&lt;p&gt;年中，我从S1项目转到A11项目，技术路线也发生了急速的变化。从原来的&lt;code class=&quot;highlighter-rouge&quot;&gt;iOS&lt;/code&gt;开发转移到了，饿，&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL/DirectX&lt;/code&gt;图形API开发，两者真是八竿子打不到一起。我觉得不是每一个IT技术从业人员在事业生涯中能遇到如此巨大的转变。不过在我所在的部门的管理和人员安排风格下，这种技术跟随项目，缺啥学啥的现象还是比较常见，也许之后技术路线还会发生相应的变化也说不定~&lt;/p&gt;
+
+&lt;p&gt;这件事仔细想想，一方面我觉得自己转换前后两个路线都做的挺好的，这也说明了自己的学习适应能力较强，能独立解决问题；但是另一方面的情况却让我内心有些不安——我花费了半年时间完成了这一个转变。我担心技术路线的转变，包括将来可能的转变将自己塑造出多方面&lt;strong&gt;了解&lt;/strong&gt;但没有突出精通的&lt;strong&gt;万事通&lt;/strong&gt;。而IT行业的技术领域是那么丰富，导致即使按照&lt;strong&gt;了解&lt;/strong&gt;的要求，也不可能有有能够全部&lt;strong&gt;了解&lt;/strong&gt;。换句话说，没有突出精通领域的从业人员是没有明显竞争力的，是无法独当一面，只能在别人的框架中做螺丝钉，这正是我担心的。因此，我的结论是：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;大转弯式的技术路线变化最好发生在技术生涯初期，有它的意义，但是宜少不宜多。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;疯狂的debug&quot;&gt;疯狂的Debug&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;3000 lines of log...
+Ctrl and F
+Next Match, Next Match,
+Oh, may be wrong here?
+Try change it yeah!
+Compiling and Compiling...
+Compiling and Compiling...
+Just anther five minutes of Compiling...
+Oops, forget a ;, thats bad, and also sad
+Just keep COMPILING! Almost there baby!
+Done, try it now alright!
+But wait! first Copy Dlls from virtual machine,
+Copy dll 1, Copy dll 2, Copy dll 3, Copy vdi 4,
+Finally, we are prepared, let's run!!!
+Um, not right, you know what's next right?
+3000 lines of log...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;上面倾情奉献一首诗，栩栩如生的描绘了A11项目图形栈调试过程。（喂，这即不押韵也不对仗的东西你说是诗？报警了啊）
+其中略有夸张，但是结论是：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;即使有再多的进度压力，问题压力，还是什么压力，能先搞好基础设施和开发环境，还是先搞好吧。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;此结论，充满血与泪，只有亲身经历后才能体会= =！&lt;/p&gt;
+
+&lt;h4 id=&quot;得&quot;&gt;得&lt;/h4&gt;
+
+&lt;p&gt;在一年的工作中，特别是近半年，因为工作需要，我对&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL&lt;/code&gt;和&lt;code class=&quot;highlighter-rouge&quot;&gt;DirectX&lt;/code&gt;图形接口做了详细的研究。因为我从事的工作本质上讲，就是
+完成一个&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL ES&lt;/code&gt;的引擎层，因此对图形接口，不仅仅需要了解&lt;strong&gt;每一个&lt;/strong&gt;图形接口的意义和用法，包括哪些万年都不会被用到的API，
+还需要对API的使用方法，相互关系有深入的理解。正式因为涉及到的是引擎开发，才会对API的了解和熟悉又如此高的要求。&lt;/p&gt;
+
+&lt;p&gt;到如今，我回首自己这一年的工作，心中竟泛起一点得意。我对自己能够完成的工作、能够克服的困难和达成的成果感到有些意外。
+我独立完成了项目需要的图形双引擎，并把引擎的兼容性和性能做到了前列。说实话，过程中我惊讶于这期间的困难看起来多么难以攻克，
+现在我也同样程度地惊讶于我达到的成果和我的收获有多么丰富。&lt;/p&gt;
+
+&lt;p&gt;记得研究生参加学校GEMS的时候，施导偶然跟我们说过，他自己做了一个实验性质的&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL&lt;/code&gt;模拟引擎。当时我听后惊为天人。因为技术浅薄的我认为能够熟练使用&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL&lt;/code&gt;进行开发渲染任务已属不易，能够自己实现&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL&lt;/code&gt;的人，那简直是基础架构师，轮子制造者，是大师级的。而经过这一年的工作，我不能说自己达到了施导的高度（实话讲是远远没有），但是至少我明白了这期间的鸿沟不管看上去有多大，总是有追赶的途径和机会，只要有信心，去实践。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;谁知道呢？你总是有可能另自己惊讶。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;以后，我会一直记得这一点。&lt;/p&gt;
+
+&lt;h2 id=&quot;工作和生活&quot;&gt;工作和生活&lt;/h2&gt;
+
+&lt;p&gt;2016年，除了工作，我也搞定了一两件人生的大事。在这一年由于个人事务的增多，我的重心和以前相比，向个人生活进行了偏移。
+在我看来这是一个好的信号，意味着我更加懂得工作和生活的平衡了。我不再像之前在S1项目组的时候，把晚上和周末的时间都用来开发业务逻辑。我不会为此感到不适。&lt;/p&gt;
+
+&lt;p&gt;说心里话，我喜欢写代码。通过代码构建出虚拟的世界并呈现在自己面前，对我而言是很特别的魅力，我也乐意付出我的时间和精力。但是除了代码和工作不是生活的全部，这一年我更加明白了这点。一个能在工作时间合理安排时间，高效率完成任务的人才是聪明的。&lt;/p&gt;
+
+&lt;p&gt;在渡过了职业的起步期后，今后我会更加重视生活和工作的平衡，多关心周围的人，多关心家人，特别是多关心小菜叶，她为我付出了很多。&lt;/p&gt;
+
+&lt;h2 id=&quot;结束&quot;&gt;结束&lt;/h2&gt;
+
+&lt;p&gt;咳-咳..我这个还是打算做成严肃的个人技术博客的，怎么感觉画风有些不对？估计是火锅太香吃的太饱，血液都留到肚子去了，大脑跟不上趟，罗里吧嗦说了一堆，自己都有些烦了。总之，2017年新的开始，我希望一年后回首，得到的关键字是“提升”，&lt;strong&gt;全方位多角度的提升&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;为自己加油吧！&lt;/p&gt;</content><author><name></name></author><category term="Personal" /><summary type="html">今天是大年三十，外面鞭炮齐鸣，热热闹闹。在帮助妈妈剁完四斤羊肉、六根萝卜和超级辣眼睛的一根大葱后，累的双手抬不起来了，手无缚鸡之力的表现真愧对我黑大汉的形象。（问为啥是双手？因为本人耍的双刀哇咔咔。）</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3Enil%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22feature%22=%3Enil%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">矩阵变换和坐标系</title><link href="http://localhost:4000/Transformation_matrix_and_coordinate_system/" rel="alternate" type="text/html" title="矩阵变换和坐标系" /><published>2016-05-10T00:00:00+00:00</published><updated>2016-05-10T00:00:00+00:00</updated><id>http://localhost:4000/Transformation_matrix_and_coordinate_system</id><content type="html" xml:base="http://localhost:4000/Transformation_matrix_and_coordinate_system/">&lt;p&gt;最近抽空尝试了MAC OS X下神奇效果的实现，基本的思想是将&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;截图之后，对渲染区域计算三次贝塞尔曲线的三角形逼近，使用&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL&lt;/code&gt;进行三角形渲染。&lt;/p&gt;
+
+&lt;p&gt;在使用&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL&lt;/code&gt;进行渲染时，为了接口的简洁直观，需要将&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;的屏幕坐标系转换为&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL&lt;/code&gt;的视图坐标系。坐标系的转换是一个基本操作，但之前我进行类似操作的时候总是不够熟练，试错几次之后才能转换成功，原因在于自己之前一直没有总结整理转换时的要点。因此，趁着这次又重新经历了这样的过程，彻底整理一下相关的要点，希望以后就不要在坐标转换上出问题。&lt;/p&gt;
+
+&lt;!-- brief-remark --&gt;
+
+&lt;h4 id=&quot;二维--三维&quot;&gt;二维 &amp;amp; 三维&lt;/h4&gt;
+
+&lt;p&gt;在进行绘图或者坐标变换的时候，往往使用的是齐次坐标，因为其次坐标可以表达无穷远点。二维的齐次坐标为三元坐标，变换矩阵为3x3矩阵；三维的齐次坐标为四元坐标，变换矩阵为4x4矩阵。不失一般性，这里只讨论三维的情况。&lt;/p&gt;
+
+&lt;h4 id=&quot;变换矩阵&quot;&gt;变换矩阵&lt;/h4&gt;
+
+&lt;p&gt;基本的变换矩阵有三种：平移、旋转和放缩。作为基本的API，大部分图形编程接口都提供了这三种变换矩阵的创建接口。对于每一种变换矩阵的具体构成，可以参考&lt;a href=&quot;https://en.wikipedia.org/wiki/Transformation_matrix&quot;&gt;这里&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;变换矩阵的左乘和右乘&quot;&gt;变换矩阵的左乘和右乘&lt;/h5&gt;
+
+&lt;p&gt;变换矩阵的左乘和右乘决定了齐次坐标是通过何种方式进行变换。变换矩阵如果是左乘，则齐次坐标为列坐标；否则为行坐标。左乘和右乘在我看来只是一个习惯问题。在&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL&lt;/code&gt;和&lt;code class=&quot;highlighter-rouge&quot;&gt;iOS UIKit&lt;/code&gt;等库中，变换矩阵都是左乘的。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;设M为变换矩阵，P为齐次坐标，则变换后的齐次坐标为M * P
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;多次变换&quot;&gt;多次变换&lt;/h4&gt;
+
+&lt;p&gt;一个齐次坐标可以进行多次变换，这种情况下可以将最终的变换矩阵表示出分步变换的变换矩阵相乘的形式:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;P' = M1 * M2 * P
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;对于多次变换，矩阵相乘的顺序是重要的，比如说一个点首先平移后旋转，与先旋转后平移，最终的位置很有可能是不同的，（从数学的角度讲，矩阵相乘没有交换律）。根据使用的编程接口的定义，有时候可以预先创建出相乘的变换矩阵，后对点进行变换（从数学的角度讲，矩阵相乘满足结合律），例如对于上述的式子，可以通过以下方式计算最终的变换矩阵：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M = M2
+M = transform M2 with M1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;对于矩阵相乘，可以有两种理解方法，这两种方式可以叫做&lt;strong&gt;点变换理解&lt;/strong&gt;和&lt;strong&gt;坐标系变换理解&lt;/strong&gt;，它们具有不同的思维模型，但是可以得到相同的结果。&lt;/p&gt;
+
+&lt;h5 id=&quot;点变换理解&quot;&gt;点变换理解&lt;/h5&gt;
+
+&lt;p&gt;点变换理解指的是将矩阵部分看做是对&lt;strong&gt;将要和它相乘的点上附加的变换&lt;/strong&gt;。在这种理解下，每一个应用变换的店通过&lt;strong&gt;从右往左&lt;/strong&gt;的若干变换，变换到最终位置，在上面的例子中，点首先进行M2变换，然后进行M1变换。例如，如果我们希望对每一个点首先放大&lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;倍，然后平移&lt;code class=&quot;highlighter-rouge&quot;&gt;(100, 100, 0)&lt;/code&gt;，则可以这样构造变换矩阵：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;GLKMatrix4 projectionMatrix = GLKMatrix4Identity;
+projectionMatrix = GLKMatrix4Translate(projectionMatrix, 100, 100, 0);
+projectionMatrix = GLKMatrixScale(projectionMatrix, 2, 2, 2);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;可以看到，虽然概念上是先放大，后平移，但是这种理解下矩阵从右往左进行应用，则构造矩阵的时候先创建平移矩阵，再右乘放大矩阵。&lt;/p&gt;
+
+&lt;h5 id=&quot;坐标系变换理解&quot;&gt;坐标系变换理解&lt;/h5&gt;
+
+&lt;p&gt;坐标系变换理解将矩阵部分看做是&lt;strong&gt;对坐标系的变换&lt;/strong&gt;。对于一个点变换，也可以理解成坐标系发生了变化。比如上面这个例子，可以理解为点进行了变换到达新的位置，也可以理解为点所在的坐标系发生了变化，由于坐标系的变化导致了点坐标的变化。在这样的理解下，坐标系通过&lt;strong&gt;从左往右&lt;/strong&gt;的顺序进行了若干变换。在上面的例子中，可以理解为坐标系首先平移了&lt;code class=&quot;highlighter-rouge&quot;&gt;(100, 100, 0)&lt;/code&gt;，然后放大&lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;倍，对于某一个点，相当于点先扩大后平移。因为坐标系变换从左往右进行变换，因此得到的变换矩阵是相同的。&lt;/p&gt;
+
+&lt;h4 id=&quot;将uiview坐标系变换到opengl-view-port坐标系&quot;&gt;将&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;坐标系变换到&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL View Port&lt;/code&gt;坐标系&lt;/h4&gt;
+
+&lt;p&gt;在实际应用中，比较常用的变换就是将&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL View Port&lt;/code&gt;坐标系转换到&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;的坐标系了。&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;坐标系以左上角为原点，&lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt;向右，&lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt;向下，坐标精度为&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;大小，定为&lt;code class=&quot;highlighter-rouge&quot;&gt;(w, h)&lt;/code&gt;；&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenGL View Port&lt;/code&gt;为单位坐标系，以中心为原点，&lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt;向右，&lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt;向上，坐标精度从-1到1，为&lt;code class=&quot;highlighter-rouge&quot;&gt;(2, 2)&lt;/code&gt;。进行坐标系变换时，可以先翻转&lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt;轴，然后平移到左上角，然后缩放坐标精度。按照这样的坐标系变换理解，变换矩阵就可以构造出来了：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;GLKMatrix4 projectionMatrix = GLKMatrix4Identity; // 单位矩阵
+projectionMatrix = GLKMatrix4Scale(projectionMatrix, 1.0, -1.0, 1.0); // 翻转 y
+projectionMatrix = GLKMatrix4Translate(projectionMatrix, -1.0, -1.0, 0.0); // 平移到左上
+projectionMatrix = GLKMatrix4Scale(projectionMatrix, 2 / w, 2 / h, 1.0); // 缩放坐标系精度
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;经过这样的变换，就可以在接口中使用熟悉的&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;坐标系中的坐标了。&lt;/p&gt;</content><author><name></name></author><category term="mathematics" /><category term="theory" /><category term="graphics" /><summary type="html">最近抽空尝试了MAC OS X下神奇效果的实现，基本的思想是将UIView截图之后，对渲染区域计算三次贝塞尔曲线的三角形逼近，使用OpenGL进行三角形渲染。</summary></entry><entry><title type="html">Cocoa Touch中的设计模式</title><link href="http://localhost:4000/cocoa_touch_design_patterns/" rel="alternate" type="text/html" title="Cocoa Touch中的设计模式" /><published>2016-04-19T00:00:00+00:00</published><updated>2016-04-19T00:00:00+00:00</updated><id>http://localhost:4000/cocoa_touch_design_patterns</id><content type="html" xml:base="http://localhost:4000/cocoa_touch_design_patterns/">&lt;p&gt;今天想讨论下Cocoa Touch这个&lt;code class=&quot;highlighter-rouge&quot;&gt;iOS&lt;/code&gt;开发的最基本系统库。作为&lt;code class=&quot;highlighter-rouge&quot;&gt;iOS&lt;/code&gt;开发者每天日常工作的基础，我们对它再熟悉不过了。在它纷繁的接口背后，是苹果开发工程师的设计思想和考量权衡。本文从设计模式的角度出发，总结了在Cocoa Touch的接口设计中存在的那些设计模式应用。了解如何这些设计模式和思考为什么要应用设计模式能够帮助我们理解苹果开发工程师的想法，一来可以促使自己更好的使用系统库，不掉入系统库的某些坑；二来也可以增强自己的设计直觉，在类似的问题上效仿借鉴。顺便通过这次总结再回顾下设计模式。&lt;/p&gt;
+
+&lt;h4 id=&quot;写在前面的题外话&quot;&gt;写在前面的题外话&lt;/h4&gt;
+
+&lt;p&gt;本文所说的设计模式，主要指的是&lt;em&gt;GoF&lt;/em&gt;所著的经典著作中的设计模式。一般认为在OO的开发环境中，这些设计模式最易应用。有些人认为OO倾向于导致过于复杂的设计，很多时候设计模式的应用产生过度设计的后果，增加软件复杂度。我同意这个看法，但是在&lt;code class=&quot;highlighter-rouge&quot;&gt;iOS&lt;/code&gt;开发领域，或者更广的客户端/GUI开发领域，OO仍然是效率最高的编程方法，也是苹果开发工程师主张的开发方法。在进行OO开发时，要利用设计模式产生良好设计，又要警惕“过于依赖”、“强行套用”设计模式带来的过度设计问题。只有不断积累实践经验，汲取大师之法，才可以用好OO这把双刃剑。&lt;/p&gt;
+
+&lt;p&gt;下面的总结按照设计模式逐条说明，不分先后。&lt;/p&gt;
+
+&lt;!-- brief-remark --&gt;
+
+&lt;h4 id=&quot;单例模式&quot;&gt;单例模式&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;iOS&lt;/code&gt;系统管理着很多软硬件资源。而最普遍的，管理这些资源的接口，使用了单例模式。如：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;UIScreen 管理主屏幕&lt;/li&gt;
+  &lt;li&gt;UIDevice 管理设备信息&lt;/li&gt;
+  &lt;li&gt;CMMotionManager 管理设备Motion&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;类似的例子还有很多。不难看出，由于硬件的唯一性，接口设计成单例模式是自然而然的选择。&lt;/p&gt;
+
+&lt;h4 id=&quot;组合模式&quot;&gt;组合模式&lt;/h4&gt;
+
+&lt;p&gt;几乎所有系统的视觉组件库都将视觉组件类建模为组合模式，这也是由于视觉组件的排布为树形结构是最方便的。如：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;UIView/subViews&lt;/li&gt;
+  &lt;li&gt;CALayer/subLayers&lt;/li&gt;
+  &lt;li&gt;UIViewController/childViewControllers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;T’B’C&lt;/p&gt;</content><author><name></name></author><category term="iOS" /><category term="Design" /><summary type="html">今天想讨论下Cocoa Touch这个iOS开发的最基本系统库。作为iOS开发者每天日常工作的基础，我们对它再熟悉不过了。在它纷繁的接口背后，是苹果开发工程师的设计思想和考量权衡。本文从设计模式的角度出发，总结了在Cocoa Touch的接口设计中存在的那些设计模式应用。了解如何这些设计模式和思考为什么要应用设计模式能够帮助我们理解苹果开发工程师的想法，一来可以促使自己更好的使用系统库，不掉入系统库的某些坑；二来也可以增强自己的设计直觉，在类似的问题上效仿借鉴。顺便通过这次总结再回顾下设计模式。</summary></entry><entry><title type="html">软件优化</title><link href="http://localhost:4000/taoup_note3/" rel="alternate" type="text/html" title="软件优化" /><published>2016-04-15T00:00:00+00:00</published><updated>2016-04-15T00:00:00+00:00</updated><id>http://localhost:4000/taoup_note3</id><content type="html" xml:base="http://localhost:4000/taoup_note3/">&lt;p&gt;在书中，作者只用了一章的篇幅对于软件优化的主题进行了介绍，可以看出&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;世界对于优化的讨论并不丰富（相对）。这也说明了&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;哲学下对待优化的态度：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Unix经验告诉我们最主要的就是如何知道何时不去优化。其次，最有效的优化往往就是优化之外的其他事情，如：清晰干净的设计&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;程序员工具箱中最强大的优化技术就是不做优化&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Premature optimization is the root of all evil.&lt;/em&gt;是一句广为流传的黑客谚语，中文往往翻译为&lt;em&gt;过早优化是万恶之源&lt;/em&gt;。在软件开发过程中，效率优化的目标往往与干净清爽的设计、代码可扩展性、代码可读性的目标是相冲突的。为了优化效率，开发者往往可能采用一些奇淫技巧，难于理解的数据结构和算法，甚至打破原先模块之间的接口，在本无偶合的地方加入强耦合，降低模块的可复用。效率和软件其他优秀品质的目标（可以统称设计方面）的这种矛盾，告诫我们不要在软件设计与开发的初期就着手进行优化操作，这是需要关注的是设计问题，而不是效率问题，设计问题远远更为重要。&lt;/p&gt;
+
+&lt;!-- brief-remark --&gt;
+
+&lt;p&gt;在初期需要更关注设计的另外一个理由就是，除非有着非常丰富的经验，开发者是很难确定代码中的那个部分会出现会出现效率问题；软件作为一个与系统接口的交互体有其天然复杂性。这种复杂性不光光由本身代码产生，也与软件所属的平台（操作系统）有关，也与软件的编译环境有关（如编译器的是否有某些优化），甚至与软件运行所在硬件有关系（是否具有某种硬件加速的方式）。总之，这种复杂性不太可能由开发者在设计时或者开发初期分析清楚，因此，这时候所做的优化往往就不是“对症下药”的。&lt;/p&gt;
+
+&lt;p&gt;抨击过早优化的另外一个理由是，不要过早优化可以产生更清晰的设计，更清晰的设计反过来可以方便优化过程。清晰的设计可以把效率瓶颈限制在较小的范围内，这样开发者可以集中精力优化很小的代码范围，只要保证这个范围的接口不变，就不会担心产生意外的影响。&lt;/p&gt;
+
+&lt;p&gt;书中关于优化的有一个有趣的点：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;摩尔定律的指数效应————最聪明、最便宜、常常也是最迅速的性能提升方法，就是等上几个月，期望硬件性能更好。考虑到硬件和程序员时间成本比率，总是有更值得打发时间的事，别去优化一个工作中的系统。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;为什么要优化，允许我说一句不负责任的话：&lt;strong&gt;因为硬件不是完美的&lt;/strong&gt;；运算时需要时间的、内存不是无限的、网络不是无延迟的。但是，得益于我们聪明的硬件设计师们，硬件性能在飞速发展中。相同的软件，在前一代硬件有性能问题，在下一代硬件可能完全没问题。所以，在进行优化之前，需要考虑软件所面向的硬件平台是什么样的，不同平台的硬件资源不同，会深刻影响到是否优化、做何种优化的决策。例如，对于服务器软件，也许只要升级硬件就可以解决，也很便宜；对于客户端甚至是移动端开发，硬件更新不方面，那就需要软件进行优化了。&lt;/p&gt;
+
+&lt;p&gt;关于如何进行优化，书中简短的提到几点：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;先估量，后优化&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;估量有误差，综合多次profiler结果&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;不妨悲观地认为，许多优化方法都是暂时的而且常常随着成本比例而变化。唯一可去了解的方法就是估量后再看。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这个几乎是所有关于优化的讨论必不可少的部分。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;永远不要讲核心数据结构和时间关键循环抛出缓存&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这里的缓存作者主要指CPU级别的缓存。在现代开发语言中，开发者不会直接控制CPU缓存的管理，此项工作往往由编译器完成。因此，除非别无它发，不要试图应用此条，原因很明显，将会损失可移植性并引入BUG。&lt;/p&gt;</content><author><name></name></author><category term="Unix" /><category term="Optmization" /><category term="读书笔记" /><summary type="html">在书中，作者只用了一章的篇幅对于软件优化的主题进行了介绍，可以看出UNIX世界对于优化的讨论并不丰富（相对）。这也说明了UNIX哲学下对待优化的态度：</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22taoup.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22feature%22=%3E%22taoup.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">软件的复杂度</title><link href="http://localhost:4000/taoup_note2/" rel="alternate" type="text/html" title="软件的复杂度" /><published>2016-04-13T00:00:00+00:00</published><updated>2016-04-13T00:00:00+00:00</updated><id>http://localhost:4000/taoup_note2</id><content type="html" xml:base="http://localhost:4000/taoup_note2/">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;世界注重考虑软件的简单性、复杂度和软件最佳规模。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;程序员追求简单的激情，源自注重实效的事实：复杂度就是成本。复杂的软件更难于开发，难于测试，难于调试，难于维护————更重要的，难于学习和使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;软件的复杂度有三个来源，接口复杂度，实现复杂度，代码量&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;复杂度的三个来源，也可以认为是复杂度的三个维度。这三个维度还会互相影响，例如如果希望接口复杂度小，则实现复杂度和代码量可能需要提高；如果希望实现复杂度低，则可能带来更高的接口复杂度（暴露的接口更加底层，更难使用）。第三个维度代码量也会受到前两个维度复杂度的影响，也会影响前两个维度。在书中，作者举出了一个例子，有时候为了保证代码库规模在约束范围内，需要使用复杂晦涩的技法或者底层汇编语言，提高了实现复杂度。但是，在硬件能力飞速发展的今天，大部分情况下，我们已经不需要专门考虑代码库水平的问题，只可能出现在某些极端的嵌入式环境下。大部分情况下，可以接受代码量被动的受到接口复杂度和实现复杂度的影响，而不需要主动约束代码量的复杂度。&lt;/p&gt;
+
+&lt;!-- brief-remark --&gt;
+
+&lt;p&gt;关于复杂度的三个维度，软件开发过程中需要做的是&lt;strong&gt;权衡&lt;/strong&gt;；特别是如何在接口复杂度和实现复杂度中折中，避免陷入接口过于复杂或者实现过于复杂的陷阱。一个历史上的权衡折中例子是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;早期的分布式超文本工程，严重局限于&lt;em&gt;MIT哲学（倾向接口简单）&lt;/em&gt;的限定；无被指物的链接在用户界面上是一个不可接受的障碍；这就限制了系统只能在一个受控的闭集文档中浏览，或者必须实现各种日益复杂的复制、缓存、索引方法来防止文档的随机丢失。Tim Berners-Lee转用经典的&lt;em&gt;New Jersey(倾向实现简单)&lt;/em&gt;哲学解决了这个疑难杂症。他所采用的简单实现就是允许&lt;em&gt;404:Not Found&lt;/em&gt;作为一个响应，这使得万维网非常轻便，并获得了广泛的传播和巨大的成功。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;《没有银弹》一文中，作者提到软件开发的复杂度分为偶然复杂度和本质复杂度。在《UNIX编程艺术》中，作者也针对软件复杂度的类型进行了一些讨论。与《没有银弹》中的讨论不同的是，他讲软件开发复杂度分为本质的、偶然的和选择的三种，并给出了下面这个表格：&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/images/taoup_note2_0.JPG&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;图中的偶然复杂度（第一行），都是由于不合适的工程实践、差的软件设计引起的，也是最容易通过提升开发人员的开发能力解决的复杂度。&lt;/p&gt;
+
+&lt;p&gt;图中的选择复杂度（第二行），与开发选择的工具、可选的功能和项目开发的约定决定的。对于代码库规模、实现复杂度对应的选择复杂度，通过选择更合适的开发语言、更强大的开发测试调试工具、更强大的开发实用套件（如基础工具模块等）、更方便的开发约定（如命名约定、代码组织约定）来降低；这方面更依赖项目开发&lt;strong&gt;初期&lt;/strong&gt;的统一计划和管理。而对于接口复杂度对应的选择复杂度，需要有效的甄别项目的可选功能和核心功能；通过忽略可选功能来降低接口复杂度（也可以降低实现复杂度）。&lt;/p&gt;
+
+&lt;p&gt;图中的本质复杂度（第三行），在《没有银弹》和本书中均指代相同的东西，即由软件要处理问题决定的，必然存在无法消除的复杂度；由于本质复杂度的存在，软件开发才是一项智力密集的挑战性工作，关于如何降低本质复杂度，书中提到：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;而要去除本质复杂度，就只能通过对现实真谛的洞察和顿悟，从根本上重新定义所要解决的问题。&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="Unix" /><category term="Linux" /><category term="Design" /><category term="读书笔记" /><summary type="html">UNIX世界注重考虑软件的简单性、复杂度和软件最佳规模。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22taoup.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22feature%22=%3E%22taoup.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">UNIX为软件设计带来的启发</title><link href="http://localhost:4000/taoup_note1/" rel="alternate" type="text/html" title="UNIX为软件设计带来的启发" /><published>2016-04-11T00:00:00+00:00</published><updated>2016-04-11T00:00:00+00:00</updated><id>http://localhost:4000/taoup_note1</id><content type="html" xml:base="http://localhost:4000/taoup_note1/">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;是设计良好的软件，本书讲述了关于&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;设计很重要、很精髓的一些观点。这些观点不仅仅局限于&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;开发，而且可以作为通用设计原则，也是通用软件设计非常珍贵的方法论。这些观点散落在不同的章节中，这里进行一些引文整理和评价。&lt;/p&gt;
+
+&lt;h3 id=&quot;紧凑性和正交性&quot;&gt;紧凑性和正交性&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;紧凑性就是一个设计能否装进人脑中的特性。紧凑不等于“薄弱”，如果一个设计构建在易于理解且利于组合的抽象概念上，这个系统能在具有非常强大、灵活的功能的同时保持紧凑。合理对待紧凑性，设计中尽量考虑，绝不随意抛弃。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;正交设计中，任何操作无副作用；每一个动作只改变一件事，不会影响其他。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;紧凑性是对一个软件模块大小的很好的评判标准。一个良好软件模块应该是紧凑的，这样人们便易于理解。一旦一个软件模块所做的事情并不是&lt;em&gt;一件事&lt;/em&gt;，而是多个事的不同方面，并且这些方面还交杂在一起，那么就是设计不良的。达到紧凑性的一个方法是&lt;em&gt;拆分&lt;/em&gt;，将模块划分为独立的子块；但是更重要的是，达到紧凑性需要对这个模块面向的场景、要解决的问题抽取出良好的抽象和问题定义，这个抽象概念越明确，问题定义越精准，越有可能导致紧凑的设计。&lt;/p&gt;
+
+&lt;!-- brief-remark --&gt;
+
+&lt;p&gt;正交性是评价模块和模块关系方面设计质量的标准之一。模块关系正交，意味着模块之间不互相影响，可以分别独立使用，并方便组合起来；这样的设计提高了模块复用；反之则是设计不良的。达到正交设计，同样需要明确场景，对模块进行精准的定义和划分，保证每个模块&lt;strong&gt;做且只做好一件事情&lt;/strong&gt;，设计就趋向正交。&lt;/p&gt;
+
+&lt;h3 id=&quot;spot原则&quot;&gt;SPOT原则&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;SPOT&lt;/strong&gt;即&lt;strong&gt;S&lt;/strong&gt;ingle &lt;strong&gt;P&lt;/strong&gt;oint &lt;strong&gt;O&lt;/strong&gt;f &lt;strong&gt;T&lt;/strong&gt;ruth、真理的单点性。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这可能是设计中最常应用，同时也是最容易见到违反场景的设计原则了。也有人称之为&lt;strong&gt;DRY&lt;/strong&gt;（&lt;strong&gt;D&lt;/strong&gt;ont &lt;strong&gt;R&lt;/strong&gt;epeat &lt;strong&gt;Y&lt;/strong&gt;ourself）原则。要对设计中的&lt;strong&gt;重复&lt;/strong&gt;异常敏感，发现重复的代码、数据、资源等都考虑重构，方能趋于SPOT。&lt;/p&gt;
+
+&lt;h3 id=&quot;胶合层&quot;&gt;胶合层&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;实际代码往往是自顶向下和自底向上的综合产物。同一个项目中经常同时具有两者的代码，导致了“胶合层”的出现&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;胶合层是个挺讨厌的东西，必须尽可能薄。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如果设计者意识到胶合层的存在，并试图围绕自身的一套数据结构或者对象把胶合层组织成一个中间层，结果却导致两个胶合层。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;设计中，胶合层是必要的，胶合层将不同的模块结合到一起，过厚的胶合层属于过度设计。良好的设计应该是&lt;strong&gt;良好的模块+薄胶合层&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;所有的OO语言都显示出某种使程序员陷入过度分层陷阱的倾向。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如果程序员到来用复杂的办法来做简单的事情————仅仅是因为他们能够这样做，结果便适得其反。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这为OO程序员（包括我）提了个醒。由于客户端工作性质，OO是必不可少的。GUI也是少数几个OO取得巨大成功的领域。但是设计中要谨防OO带来的过度设计，特别是胶合层方面。&lt;/p&gt;
+
+&lt;h3 id=&quot;微型语言&quot;&gt;微型语言&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;微型语言的设计不仅强大而且回报丰厚…微型语言的优势之一是可以把一些自顶向下的决策放到微型语言的程序控制流中，从而帮助我们从自底向上的编程中得到一个良好的设计。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在以往的编程开发中，我还没有创建微型语言的经历，这可能跟我面向的任务规模和领域有关。尽管如此，我感到微型语言非常有趣，而且很强大。&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;给我的启发之一是，&lt;strong&gt;自底向上建立起机制，自顶向下确定策略，而微型语言，则是薄薄的胶合层&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;这样的软件设计模式可能非常强大。简单说，通过将问题领域的操作、行为等作为动作原语，为这些原语建立基础模块（机制）；其次，在这些原语的基础上，设计一个灵活的微型语言及其解释器，该解释器分析微型语言，并调用基础模块完成功能；最后，根据面向的问题，通过执行相应的微型语言，给出实际的解决方案，例如搭建GUI并调用微型语言。&lt;/p&gt;
+
+&lt;p&gt;这样的设计模式的好处是显然的：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;策略和机制进行了分离，开发基础模块不需要关注上层GUI，反之亦然。有助于基础模块的设计良好。&lt;/li&gt;
+  &lt;li&gt;微型语言的参与使得对基础模块的使用模式有可能变得十分灵活，更易于运行时改变。&lt;/li&gt;
+  &lt;li&gt;基础模块易于复用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;在iOS客户端开发中，&lt;code class=&quot;highlighter-rouge&quot;&gt;NSLayoutConstraint&lt;/code&gt;的创建就是一个微型语言的&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/ProgrammaticallyCreatingConstraints.html#//apple_ref/doc/uid/TP40010853-CH16-SW1&quot;&gt;例子&lt;/a&gt;，通过声明一个表明各个&lt;code class=&quot;highlighter-rouge&quot;&gt;UIView&lt;/code&gt;之间布局约束关系的字符串，解析器创建一组期望的&lt;code class=&quot;highlighter-rouge&quot;&gt;NSLayoutConstraint&lt;/code&gt;对象。&lt;/p&gt;
+
+&lt;p&gt;微型语言的设计是一项有趣且富有挑战的任务，需要语法设计、调用&lt;code class=&quot;highlighter-rouge&quot;&gt;yacc&lt;/code&gt;和&lt;code class=&quot;highlighter-rouge&quot;&gt;lex&lt;/code&gt;完成词法和语法分析、集成等工作。希望以后有机会能够实践下。&lt;/p&gt;
+
+&lt;h3 id=&quot;数据-vs-逻辑&quot;&gt;数据 vs 逻辑&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;数据比程序逻辑更易驾驭。尽可能把设计的复杂度从程序代码转移到数据中是个好实践。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;进行任何类型的代码生成或者数据驱动编程的重要原则是：始终把问题层次往上推，不要手工修改生成的代码或者中间形式&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;尽可能少干活；让数据塑造代码；依靠工具，把机制从策略中分离。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;数据比程序逻辑更易驾驭，在于人脑分析数据更加容易，复杂度更低，同时数据更易在运行时改变，更加灵活。
+在设计中，对于复杂的逻辑，要通过把问题层次往上推，从中抽取有用的抽象概念，从而找到用数据建模逻辑的可能。&lt;/p&gt;
+
+&lt;p&gt;在&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;之外，在很多GUI开发领域，这样的场景很常见，通过可视化的UI搭建界面，创建表达界面数据的&lt;code class=&quot;highlighter-rouge&quot;&gt;XML&lt;/code&gt;(Qt)、&lt;code class=&quot;highlighter-rouge&quot;&gt;XAML&lt;/code&gt;(Windows Phone)、&lt;code class=&quot;highlighter-rouge&quot;&gt;Storyboard&lt;/code&gt;(iOS)等数据表示，再通过专有程序使用这些数据文件。这些专有程序或者直接运行时解析，或者编译器生成代码。&lt;/p&gt;
+
+&lt;h3 id=&quot;透明性和可显性&quot;&gt;透明性和可显性&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如果没有阴暗的角落和隐藏的深度，软件系统就是透明的。透明性是一种被动品质。如果实际上能预测到程序行为的全部或者大部分情况，并能建立简单的心理模型，这个程序就是透明的。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如果软件系统所包含的功能是为了帮助人们对软件建立正确“做什么，怎样做”的心理模型而设计，这个软件系统就是可显的。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这两个概念比较生疏，我在读此书之前基本没有在别的设计书籍中看到这两个概念。书中对这两个概念的描述也比较晦涩难懂。特意去查了英文原版中这两个词，分别是&lt;code class=&quot;highlighter-rouge&quot;&gt;Transparent&lt;/code&gt;和&lt;code class=&quot;highlighter-rouge&quot;&gt;Discoverable&lt;/code&gt;。在我的理解中，透明性表达了理解软件整体的难易程度，软件的结构、功能符合预期，软件对自身的运行过程有明确的反馈；可显性表达了当软件某一个功能不那么清晰明显时，使用者通过学习、查看资料了解的难易程度，良好的文档有助于提高可显性。&lt;/p&gt;
+
+&lt;p&gt;从另一个角度，我认为软件这两个性质其实说的是软件是否是“优雅”的软件，即更符合人们预期、更易学习的软件。&lt;/p&gt;
+
+&lt;p&gt;目前对于这两个性质我只能做出这种程度的解释，之后只能慢慢体会。&lt;/p&gt;
+
+&lt;h3 id=&quot;结束&quot;&gt;结束&lt;/h3&gt;
+
+&lt;p&gt;以上就是书中的一些观点概念及对我的启发，有一些是比较显见易于理解和实施的，比如&lt;strong&gt;SPOT&lt;/strong&gt;；有些则有些深奥，比如&lt;strong&gt;透明性，可显性&lt;/strong&gt;，需要以后加深理解。不论怎样，在以后开发过程中，意识到这些良好设计准则并有意应用，能促成更好的设计。&lt;/p&gt;
+
+&lt;p&gt;最后，用书中的一句俏皮点的话结束总结吧，当作者讨论让使用数据来生成代码这一良好实践时，他说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;专家级&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;程序员要学会迅速自动地看出这些可能性。建设性的懒惰是大师程序员的基本美德之一。&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="Unix Linux Design 读书笔记" /><summary type="html">UNIX是设计良好的软件，本书讲述了关于UNIX设计很重要、很精髓的一些观点。这些观点不仅仅局限于UNIX开发，而且可以作为通用设计原则，也是通用软件设计非常珍贵的方法论。这些观点散落在不同的章节中，这里进行一些引文整理和评价。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22taoup.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22feature%22=%3E%22taoup.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">偏爱命令行的世界</title><link href="http://localhost:4000/taoup_note0/" rel="alternate" type="text/html" title="偏爱命令行的世界" /><published>2016-04-08T00:00:00+00:00</published><updated>2016-04-08T00:00:00+00:00</updated><id>http://localhost:4000/taoup_note0</id><content type="html" xml:base="http://localhost:4000/taoup_note0/">&lt;p&gt;最近花了将近两个月的时间，读完了《The Art of Unix Programming》。说起来这本书很早就买了，但书中内容适合有&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;技术基础的人。苦于对&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;本身的不了解，之前翻开过几次都看了一章就放弃了，无功而返。终于，这次硬着头皮读下来了，感触收获良多。这本书从叙事语言到其中的思想都很有亮点，我想随着我&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;基础的增加，一定会二刷。&lt;/p&gt;
+
+&lt;p&gt;目前准备写几篇读后感，记录所想所得，这是第一篇。&lt;/p&gt;
+
+&lt;h3 id=&quot;编程的魅力&quot;&gt;编程的魅力&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;我们为什么喜欢编程？&lt;/em&gt;有人说，编程的魅力有两方面，一方面是&lt;em&gt;征服的快感&lt;/em&gt;，通过智力和体力的付出，解决了难搞的Bug，入侵了别人的服务器，通过某些奇淫技巧搞定问题。另一方面是&lt;em&gt;创造的乐趣&lt;/em&gt;，程序员手中握有世界上最易变的介质，可以仅凭思想就可以创造整个世界。我一直觉得后者对我的吸引力更大，这也是我选择客户端开发的原因之一，因为它的结果可视，更有成就感，更有创造乐趣。&lt;/p&gt;
+
+&lt;!-- brief-remark --&gt;
+
+&lt;h3 id=&quot;命令行&quot;&gt;命令行&lt;/h3&gt;
+
+&lt;p&gt;之所以提到编程的魅力，是因为长久以来，我一直觉得GUI可视更有魅力；但这本书让我看到了命令行之美。这就是这本书带给我的第一个感悟：&lt;strong&gt;GUI能做的事情，命令行也能做，或许做的更好！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;书中提到，整个&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;世界在都在推崇命令行工具，这和&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;的诞生环境有关系。与微软操作系统的风格不同，&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;把命令行作为系统的主要接口，用户来系统中看到的所有图形化的界面仅仅运行的一个程序而已，绝非系统的核心部分。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;命令行之所以强大，关键在于&lt;code class=&quot;highlighter-rouge&quot;&gt;文本化&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;的命令行以&lt;em&gt;文本过滤器&lt;/em&gt;的方式进行运作，优势是显然的：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;文本化易于阅读
+文本作为通用格式，易于命令行程序之间的合作
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;正是因为命令行作为文本过滤器的特点，书中特别强调了&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;UNIX命令行工具可以以未预料的方式进行组合&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;易组合的特点给命令行工具带来了难以想象的灵活性，任何&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;命令行工具，只要满足一定的约定进行文本输入输出，就可以与另外任意的满足约定的命令行工具进行组合。因此，在&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;世界中，人们更看重的是&lt;em&gt;锐利的小刀&lt;/em&gt;(短小精悍的小工具)，而非*瑞士组合刀具**(拥有各种功能的庞然巨物)。创造了工具，如何使用工具去解决问题的任务，交给用户。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;MAC OS X&lt;/code&gt;的前身是&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;MAC OS X&lt;/code&gt;下的软件alfred是一个充分利用命令行易组合特性的软件。在alfred中，用户可以自定义一个workflow，该workflow从可以用户输入的文本出发，运行若干命令行脚本，最后再调用相关系统接口，如通知、剪贴板等；这样的软件，只有如&lt;code class=&quot;highlighter-rouge&quot;&gt;UNIX&lt;/code&gt;这般重视文本化命令行工具的系统下才会存在，才会方便。&lt;/p&gt;
+
+&lt;p&gt;想一想通过命令行工具特定组合创造新的工具的过程，是否同我们而是玩的积木拼大厦是一个意思呢？这就是我说的编程带给我们的创造的乐趣了。&lt;/p&gt;</content><author><name></name></author><category term="Unix" /><category term="读书笔记" /><summary type="html">最近花了将近两个月的时间，读完了《The Art of Unix Programming》。说起来这本书很早就买了，但书中内容适合有UNIX技术基础的人。苦于对UNIX本身的不了解，之前翻开过几次都看了一章就放弃了，无功而返。终于，这次硬着头皮读下来了，感触收获良多。这本书从叙事语言到其中的思想都很有亮点，我想随着我UNIX基础的增加，一定会二刷。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22taoup.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22feature%22=%3E%22taoup.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">开始</title><link href="http://localhost:4000/beginning/" rel="alternate" type="text/html" title="开始" /><published>2016-04-08T00:00:00+00:00</published><updated>2016-04-08T00:00:00+00:00</updated><id>http://localhost:4000/beginning</id><content type="html" xml:base="http://localhost:4000/beginning/">&lt;p&gt;今天是个值得纪念的日子。经过一些简单配置，我在github上搭建了自己的个人博客页面。&lt;/p&gt;
+
+&lt;p&gt;希望我能够坚持下去！&lt;/p&gt;
+
+&lt;p&gt;感谢github和jekyll项目的支持!&lt;/p&gt;
+
+&lt;!-- brief-remark --&gt;</content><author><name></name></author><summary type="html">今天是个值得纪念的日子。经过一些简单配置，我在github上搭建了自己的个人博客页面。</summary></entry></feed>

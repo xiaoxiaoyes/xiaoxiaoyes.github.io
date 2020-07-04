@@ -1,0 +1,248 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>软件优化 &#8211; iFun Tech</title>
+<meta name="description" content="《Unix 编程艺术》 读书心得 (四)">
+<meta name="keywords" content="Unix, Optmization, 读书笔记">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="软件优化">
+<meta property="og:description" content="《Unix 编程艺术》 读书心得 (四)">
+<meta property="og:url" content="http://localhost:4000/taoup_note3/">
+<meta property="og:site_name" content="iFun Tech">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/taoup_note3/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="iFun Tech Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.jpeg">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.jpeg">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/">主页</a></li>
+		<li>
+			<a href="#">关于</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="http://localhost:4000/images/avatar.jpeg" alt="Curno photo" class="author-photo">
+					<h4>Curno</h4>
+					<p>记录技术的所思所想，当然，我指的是有时间的时候：）</p>
+				</li>
+				<li><a href="http://localhost:4000/about/"><span class="btn btn-inverse">更多</span></a></li>
+				<li>
+					<a href="mailto:liangyunfeng2014@163.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				
+				<li>
+					<a href="https://github.com/curno"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">博文</a>
+			<ul class="dl-submenu">
+				<li><a href="http://localhost:4000/posts/">全部博文</a></li>
+				<li><a href="http://localhost:4000/tags/">全部 Tags</a></li>
+			</ul>
+		</li>
+		
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  
+  <div class="entry-image">
+    <img src="http://localhost:4000/images/taoup.png" alt="软件优化">
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/taoup_note3/" rel="bookmark" title="软件优化">软件优化</a></h1>
+        
+        <h2><span class="entry-date date published"><time datetime="2016-04-15T00:00:00+00:00">April 15, 2016</time></span></h2>
+        
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+Reading time ~1 minute
+        </p><!-- /.entry-reading-time -->
+        
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>在书中，作者只用了一章的篇幅对于软件优化的主题进行了介绍，可以看出<code class="highlighter-rouge">UNIX</code>世界对于优化的讨论并不丰富（相对）。这也说明了<code class="highlighter-rouge">UNIX</code>哲学下对待优化的态度：</p>
+
+<blockquote>
+  <p>Unix经验告诉我们最主要的就是如何知道何时不去优化。其次，最有效的优化往往就是优化之外的其他事情，如：清晰干净的设计</p>
+</blockquote>
+
+<blockquote>
+  <p>程序员工具箱中最强大的优化技术就是不做优化</p>
+</blockquote>
+
+<p><em>Premature optimization is the root of all evil.</em>是一句广为流传的黑客谚语，中文往往翻译为<em>过早优化是万恶之源</em>。在软件开发过程中，效率优化的目标往往与干净清爽的设计、代码可扩展性、代码可读性的目标是相冲突的。为了优化效率，开发者往往可能采用一些奇淫技巧，难于理解的数据结构和算法，甚至打破原先模块之间的接口，在本无偶合的地方加入强耦合，降低模块的可复用。效率和软件其他优秀品质的目标（可以统称设计方面）的这种矛盾，告诫我们不要在软件设计与开发的初期就着手进行优化操作，这是需要关注的是设计问题，而不是效率问题，设计问题远远更为重要。</p>
+
+<!-- brief-remark -->
+
+<p>在初期需要更关注设计的另外一个理由就是，除非有着非常丰富的经验，开发者是很难确定代码中的那个部分会出现会出现效率问题；软件作为一个与系统接口的交互体有其天然复杂性。这种复杂性不光光由本身代码产生，也与软件所属的平台（操作系统）有关，也与软件的编译环境有关（如编译器的是否有某些优化），甚至与软件运行所在硬件有关系（是否具有某种硬件加速的方式）。总之，这种复杂性不太可能由开发者在设计时或者开发初期分析清楚，因此，这时候所做的优化往往就不是“对症下药”的。</p>
+
+<p>抨击过早优化的另外一个理由是，不要过早优化可以产生更清晰的设计，更清晰的设计反过来可以方便优化过程。清晰的设计可以把效率瓶颈限制在较小的范围内，这样开发者可以集中精力优化很小的代码范围，只要保证这个范围的接口不变，就不会担心产生意外的影响。</p>
+
+<p>书中关于优化的有一个有趣的点：</p>
+
+<blockquote>
+  <p>摩尔定律的指数效应————最聪明、最便宜、常常也是最迅速的性能提升方法，就是等上几个月，期望硬件性能更好。考虑到硬件和程序员时间成本比率，总是有更值得打发时间的事，别去优化一个工作中的系统。</p>
+</blockquote>
+
+<p>为什么要优化，允许我说一句不负责任的话：<strong>因为硬件不是完美的</strong>；运算时需要时间的、内存不是无限的、网络不是无延迟的。但是，得益于我们聪明的硬件设计师们，硬件性能在飞速发展中。相同的软件，在前一代硬件有性能问题，在下一代硬件可能完全没问题。所以，在进行优化之前，需要考虑软件所面向的硬件平台是什么样的，不同平台的硬件资源不同，会深刻影响到是否优化、做何种优化的决策。例如，对于服务器软件，也许只要升级硬件就可以解决，也很便宜；对于客户端甚至是移动端开发，硬件更新不方面，那就需要软件进行优化了。</p>
+
+<p>关于如何进行优化，书中简短的提到几点：</p>
+
+<blockquote>
+  <p>先估量，后优化</p>
+</blockquote>
+
+<blockquote>
+  <p>估量有误差，综合多次profiler结果</p>
+</blockquote>
+
+<blockquote>
+  <p>不妨悲观地认为，许多优化方法都是暂时的而且常常随着成本比例而变化。唯一可去了解的方法就是估量后再看。</p>
+</blockquote>
+
+<p>这个几乎是所有关于优化的讨论必不可少的部分。</p>
+
+<blockquote>
+  <p>永远不要讲核心数据结构和时间关键循环抛出缓存</p>
+</blockquote>
+
+<p>这里的缓存作者主要指CPU级别的缓存。在现代开发语言中，开发者不会直接控制CPU缓存的管理，此项工作往往由编译器完成。因此，除非别无它发，不要试图应用此条，原因很明显，将会损失可移植性并引入BUG。</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#Unix" title="Pages tagged Unix" class="tag"><span class="term">Unix</span></a><a href="http://localhost:4000/tags/#Optmization" title="Pages tagged Optmization" class="tag"><span class="term">Optmization</span></a><a href="http://localhost:4000/tags/#读书笔记" title="Pages tagged 读书笔记" class="tag"><span class="term">读书笔记</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/taoup_note3/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/taoup_note3/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/taoup_note3/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    <!--<section id="disqus_thread"></section>--><!-- /#disqus_thread -->
+    <div class="read-more">
+  <div class="read-more-list">
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/taoup_note2/" title="软件的复杂度">软件的复杂度</a></h4>
+        <span>发表于 April 13, 2016</span>
+      </div><!-- /.list-item -->
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/cocoa_touch_design_patterns/" title="Cocoa Touch中的设计模式">Cocoa Touch中的设计模式</a></h4>
+        <span>发表于 April 19, 2016</span>
+      </div><!-- /.list-item -->
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2020 Curno. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'curno'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+</body>
+</html>

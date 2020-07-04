@@ -1,0 +1,236 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>偏爱命令行的世界 &#8211; iFun Tech</title>
+<meta name="description" content="《Unix 编程艺术》 读书心得 (一)">
+<meta name="keywords" content="Unix, 读书笔记">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="偏爱命令行的世界">
+<meta property="og:description" content="《Unix 编程艺术》 读书心得 (一)">
+<meta property="og:url" content="http://localhost:4000/taoup_note0/">
+<meta property="og:site_name" content="iFun Tech">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/taoup_note0/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="iFun Tech Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.jpeg">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.jpeg">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/">主页</a></li>
+		<li>
+			<a href="#">关于</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="http://localhost:4000/images/avatar.jpeg" alt="Curno photo" class="author-photo">
+					<h4>Curno</h4>
+					<p>记录技术的所思所想，当然，我指的是有时间的时候：）</p>
+				</li>
+				<li><a href="http://localhost:4000/about/"><span class="btn btn-inverse">更多</span></a></li>
+				<li>
+					<a href="mailto:liangyunfeng2014@163.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				
+				<li>
+					<a href="https://github.com/curno"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">博文</a>
+			<ul class="dl-submenu">
+				<li><a href="http://localhost:4000/posts/">全部博文</a></li>
+				<li><a href="http://localhost:4000/tags/">全部 Tags</a></li>
+			</ul>
+		</li>
+		
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  
+  <div class="entry-image">
+    <img src="http://localhost:4000/images/taoup.png" alt="偏爱命令行的世界">
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/taoup_note0/" rel="bookmark" title="偏爱命令行的世界">偏爱命令行的世界</a></h1>
+        
+        <h2><span class="entry-date date published"><time datetime="2016-04-08T00:00:00+00:00">April 08, 2016</time></span></h2>
+        
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+Reading time ~1 minute
+        </p><!-- /.entry-reading-time -->
+        
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>最近花了将近两个月的时间，读完了《The Art of Unix Programming》。说起来这本书很早就买了，但书中内容适合有<code class="highlighter-rouge">UNIX</code>技术基础的人。苦于对<code class="highlighter-rouge">UNIX</code>本身的不了解，之前翻开过几次都看了一章就放弃了，无功而返。终于，这次硬着头皮读下来了，感触收获良多。这本书从叙事语言到其中的思想都很有亮点，我想随着我<code class="highlighter-rouge">UNIX</code>基础的增加，一定会二刷。</p>
+
+<p>目前准备写几篇读后感，记录所想所得，这是第一篇。</p>
+
+<h3 id="编程的魅力">编程的魅力</h3>
+
+<p><em>我们为什么喜欢编程？</em>有人说，编程的魅力有两方面，一方面是<em>征服的快感</em>，通过智力和体力的付出，解决了难搞的Bug，入侵了别人的服务器，通过某些奇淫技巧搞定问题。另一方面是<em>创造的乐趣</em>，程序员手中握有世界上最易变的介质，可以仅凭思想就可以创造整个世界。我一直觉得后者对我的吸引力更大，这也是我选择客户端开发的原因之一，因为它的结果可视，更有成就感，更有创造乐趣。</p>
+
+<!-- brief-remark -->
+
+<h3 id="命令行">命令行</h3>
+
+<p>之所以提到编程的魅力，是因为长久以来，我一直觉得GUI可视更有魅力；但这本书让我看到了命令行之美。这就是这本书带给我的第一个感悟：<strong>GUI能做的事情，命令行也能做，或许做的更好！</strong></p>
+
+<p>书中提到，整个<code class="highlighter-rouge">UNIX</code>世界在都在推崇命令行工具，这和<code class="highlighter-rouge">UNIX</code>的诞生环境有关系。与微软操作系统的风格不同，<code class="highlighter-rouge">UNIX</code>把命令行作为系统的主要接口，用户来系统中看到的所有图形化的界面仅仅运行的一个程序而已，绝非系统的核心部分。</p>
+
+<p><code class="highlighter-rouge">UNIX</code>命令行之所以强大，关键在于<code class="highlighter-rouge">文本化</code>，<code class="highlighter-rouge">UNIX</code>的命令行以<em>文本过滤器</em>的方式进行运作，优势是显然的：</p>
+
+<blockquote>
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>文本化易于阅读
+文本作为通用格式，易于命令行程序之间的合作
+</code></pre></div>  </div>
+</blockquote>
+
+<p>正是因为命令行作为文本过滤器的特点，书中特别强调了</p>
+
+<blockquote>
+  <p>UNIX命令行工具可以以未预料的方式进行组合</p>
+</blockquote>
+
+<p>易组合的特点给命令行工具带来了难以想象的灵活性，任何<code class="highlighter-rouge">UNIX</code>命令行工具，只要满足一定的约定进行文本输入输出，就可以与另外任意的满足约定的命令行工具进行组合。因此，在<code class="highlighter-rouge">UNIX</code>世界中，人们更看重的是<em>锐利的小刀</em>(短小精悍的小工具)，而非*瑞士组合刀具**(拥有各种功能的庞然巨物)。创造了工具，如何使用工具去解决问题的任务，交给用户。</p>
+
+<p><code class="highlighter-rouge">MAC OS X</code>的前身是<code class="highlighter-rouge">UNIX</code>，<code class="highlighter-rouge">MAC OS X</code>下的软件alfred是一个充分利用命令行易组合特性的软件。在alfred中，用户可以自定义一个workflow，该workflow从可以用户输入的文本出发，运行若干命令行脚本，最后再调用相关系统接口，如通知、剪贴板等；这样的软件，只有如<code class="highlighter-rouge">UNIX</code>这般重视文本化命令行工具的系统下才会存在，才会方便。</p>
+
+<p>想一想通过命令行工具特定组合创造新的工具的过程，是否同我们而是玩的积木拼大厦是一个意思呢？这就是我说的编程带给我们的创造的乐趣了。</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#Unix" title="Pages tagged Unix" class="tag"><span class="term">Unix</span></a><a href="http://localhost:4000/tags/#读书笔记" title="Pages tagged 读书笔记" class="tag"><span class="term">读书笔记</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/taoup_note0/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/taoup_note0/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/taoup_note0/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    <!--<section id="disqus_thread"></section>--><!-- /#disqus_thread -->
+    <div class="read-more">
+  <div class="read-more-list">
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/beginning/" title="开始">开始</a></h4>
+        <span>发表于 April 08, 2016</span>
+      </div><!-- /.list-item -->
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/taoup_note1/" title="UNIX为软件设计带来的启发">UNIX为软件设计带来的启发</a></h4>
+        <span>发表于 April 11, 2016</span>
+      </div><!-- /.list-item -->
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2020 Curno. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'curno'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+</body>
+</html>

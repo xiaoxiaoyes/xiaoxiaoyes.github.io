@@ -1,0 +1,228 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Cocoa Touch中的设计模式 &#8211; iFun Tech</title>
+<meta name="description" content="">
+<meta name="keywords" content="iOS, Design">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cocoa Touch中的设计模式">
+<meta property="og:description" content="">
+<meta property="og:url" content="http://localhost:4000/cocoa_touch_design_patterns/">
+<meta property="og:site_name" content="iFun Tech">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/cocoa_touch_design_patterns/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="iFun Tech Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.jpeg">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.jpeg">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000/">主页</a></li>
+		<li>
+			<a href="#">关于</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="http://localhost:4000/images/avatar.jpeg" alt="Curno photo" class="author-photo">
+					<h4>Curno</h4>
+					<p>记录技术的所思所想，当然，我指的是有时间的时候：）</p>
+				</li>
+				<li><a href="http://localhost:4000/about/"><span class="btn btn-inverse">更多</span></a></li>
+				<li>
+					<a href="mailto:liangyunfeng2014@163.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				
+				<li>
+					<a href="https://github.com/curno"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">博文</a>
+			<ul class="dl-submenu">
+				<li><a href="http://localhost:4000/posts/">全部博文</a></li>
+				<li><a href="http://localhost:4000/tags/">全部 Tags</a></li>
+			</ul>
+		</li>
+		
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="http://localhost:4000/cocoa_touch_design_patterns/" rel="bookmark" title="Cocoa Touch中的设计模式">Cocoa Touch中的设计模式</a></h1>
+        
+        <h2><span class="entry-date date published"><time datetime="2016-04-19T00:00:00+00:00">April 19, 2016</time></span></h2>
+        
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+Reading time ~1 minute
+        </p><!-- /.entry-reading-time -->
+        
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>今天想讨论下Cocoa Touch这个<code class="highlighter-rouge">iOS</code>开发的最基本系统库。作为<code class="highlighter-rouge">iOS</code>开发者每天日常工作的基础，我们对它再熟悉不过了。在它纷繁的接口背后，是苹果开发工程师的设计思想和考量权衡。本文从设计模式的角度出发，总结了在Cocoa Touch的接口设计中存在的那些设计模式应用。了解如何这些设计模式和思考为什么要应用设计模式能够帮助我们理解苹果开发工程师的想法，一来可以促使自己更好的使用系统库，不掉入系统库的某些坑；二来也可以增强自己的设计直觉，在类似的问题上效仿借鉴。顺便通过这次总结再回顾下设计模式。</p>
+
+<h4 id="写在前面的题外话">写在前面的题外话</h4>
+
+<p>本文所说的设计模式，主要指的是<em>GoF</em>所著的经典著作中的设计模式。一般认为在OO的开发环境中，这些设计模式最易应用。有些人认为OO倾向于导致过于复杂的设计，很多时候设计模式的应用产生过度设计的后果，增加软件复杂度。我同意这个看法，但是在<code class="highlighter-rouge">iOS</code>开发领域，或者更广的客户端/GUI开发领域，OO仍然是效率最高的编程方法，也是苹果开发工程师主张的开发方法。在进行OO开发时，要利用设计模式产生良好设计，又要警惕“过于依赖”、“强行套用”设计模式带来的过度设计问题。只有不断积累实践经验，汲取大师之法，才可以用好OO这把双刃剑。</p>
+
+<p>下面的总结按照设计模式逐条说明，不分先后。</p>
+
+<!-- brief-remark -->
+
+<h4 id="单例模式">单例模式</h4>
+
+<p><code class="highlighter-rouge">iOS</code>系统管理着很多软硬件资源。而最普遍的，管理这些资源的接口，使用了单例模式。如：</p>
+
+<ul>
+  <li>UIScreen 管理主屏幕</li>
+  <li>UIDevice 管理设备信息</li>
+  <li>CMMotionManager 管理设备Motion</li>
+  <li>…</li>
+</ul>
+
+<p>类似的例子还有很多。不难看出，由于硬件的唯一性，接口设计成单例模式是自然而然的选择。</p>
+
+<h4 id="组合模式">组合模式</h4>
+
+<p>几乎所有系统的视觉组件库都将视觉组件类建模为组合模式，这也是由于视觉组件的排布为树形结构是最方便的。如：</p>
+
+<ul>
+  <li>UIView/subViews</li>
+  <li>CALayer/subLayers</li>
+  <li>UIViewController/childViewControllers</li>
+</ul>
+
+<p>T’B’C</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#iOS" title="Pages tagged iOS" class="tag"><span class="term">iOS</span></a><a href="http://localhost:4000/tags/#Design" title="Pages tagged Design" class="tag"><span class="term">Design</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/cocoa_touch_design_patterns/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/cocoa_touch_design_patterns/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/cocoa_touch_design_patterns/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    <!--<section id="disqus_thread"></section>--><!-- /#disqus_thread -->
+    <div class="read-more">
+  <div class="read-more-list">
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/taoup_note3/" title="软件优化">软件优化</a></h4>
+        <span>发表于 April 15, 2016</span>
+      </div><!-- /.list-item -->
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/Transformation_matrix_and_coordinate_system/" title="矩阵变换和坐标系">矩阵变换和坐标系</a></h4>
+        <span>发表于 May 10, 2016</span>
+      </div><!-- /.list-item -->
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2020 Curno. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'curno'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+</body>
+</html>
