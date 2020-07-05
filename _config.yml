@@ -1,17 +1,15 @@
-title:            "iFun Tech"
-description:      "记录技术的所思所想，当然，我指的是有时间的时候：）"
+title:            "iFun Life"
+description:      "生活需要记录"
 disqus_shortname: curno
 reading_time:     true
 words_per_minute: 200
-# Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
-# When testing locally leave blank or use http://localhost:4000
 url:
 
 # Owner/author information
 owner:
   name:           Curno
   avatar:         avatar.jpeg
-  bio:            "记录技术的所思所想，当然，我指的是有时间的时候：）"
+  bio:            "生活需要记录"
   email:          liangyunfeng2014@163.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
